@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="label_array">
+        <item>No</item>
+        <item>2 Ways</item>
+        <item>3 Ways</item>
+        <item>4 Ways</item>
+    </string-array>
+</resources>

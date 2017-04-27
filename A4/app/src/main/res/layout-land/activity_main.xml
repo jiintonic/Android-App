@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff200">
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageButtonMocha"
+        android:src="@drawable/mocha"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true"
+        android:cropToPadding="true"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/textView6" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/initialDogeValue"
+        android:id="@+id/textViewDogeCount"
+        android:layout_below="@+id/imageButtonMocha"
+        android:layout_alignEnd="@id/imageButtonMocha" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dogetitle"
+        android:id="@+id/textView"
+        android:background="#bbcdbf1f"
+        android:layout_below="@+id/imageButtonMocha"
+        android:layout_alignStart="@id/imageButtonMocha"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonAddSymbol"
+        android:id="@+id/buttonBuyHuman"
+        android:background="#d86439a0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="23dp"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonAddSymbol"
+        android:id="@+id/buttonBuyHydrant"
+        android:layout_below="@id/buttonBuyHuman"
+        android:layout_alignParentLeft="true"
+        />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonAddSymbol"
+        android:id="@+id/buttonBuyShoe"
+        android:layout_below="@id/buttonBuyHydrant"
+        android:layout_alignParentLeft="true" />
+
+
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonAddSymbol"
+        android:id="@+id/buttonBuyTreat"
+        android:background="#56bf51"
+        android:layout_below="@id/buttonBuyShoe"
+        android:layout_alignParentLeft="true"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textHuman"
+        android:id="@+id/textView2"
+        android:layout_alignBaseline="@id/buttonBuyHuman"
+        android:layout_toEndOf="@id/buttonBuyHuman"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/initialDogeValue"
+        android:id="@+id/textViewHumanCount"
+        android:layout_alignBaseline="@id/buttonBuyHuman"
+        android:layout_toEndOf="@id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textFireHydrant"
+        android:id="@+id/textView5"
+        android:layout_alignBaseline="@+id/buttonBuyHydrant"
+        android:textColor="#0000ff"
+        android:layout_toEndOf="@id/buttonBuyHydrant"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/initialDogeValue"
+        android:id="@+id/textViewHydrantCount"
+        android:layout_toEndOf="@id/textView5"
+        android:layout_alignBaseline="@+id/textView5" />
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textTreats"
+        android:id="@+id/textView3"
+        android:layout_alignBaseline="@id/buttonBuyTreat"
+        android:layout_toEndOf="@id/buttonBuyTreat"
+        android:textColor="#04ff00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/initialDogeValue"
+        android:id="@+id/textViewTreatsCount"
+        android:layout_toEndOf="@id/textView3"
+        android:layout_alignBaseline="@+id/buttonBuyTreat"
+        android:layout_marginStart="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gameTitle"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textShoes"
+        android:id="@+id/textView4"
+        android:textColor="#00ffaa"
+        android:layout_alignBaseline="@id/buttonBuyShoe"
+        android:layout_toEndOf="@id/buttonBuyShoe"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/initialDogeValue"
+        android:id="@+id/textViewShoesCount"
+        android:layout_toEndOf="@id/textView4"
+        android:layout_alignBaseline="@+id/textView4" />
+
+    <Button
+        android:text="DETAIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDetail"
+        android:layout_below="@+id/imageButtonMocha"
+        android:layout_alignStart="@+id/textViewTreatsCount" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="itp341.yang.chingchuan.a6.MainActivity">
+
+    <TextView
+        android:text="Solve the Puzzle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView1"
+        android:id="@+id/textViewTitle"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:text="I am feeling blue"
+        android:textSize="22dp"
+        android:textColor="@color/red"
+        android:gravity="center"/>
+
+    <TextView
+        android:text="I want to be big"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="22dp"
+        android:textColor="@color/red"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:text='You can call me "AI"'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="22dp"
+        android:textColor="@color/red"
+        android:gravity="center"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:text="Room 1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+
+        android:id="@+id/button1" />
+    <Button
+        android:text="Room 2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignEnd="@+id/textViewTitle"
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="Room 3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toEndOf="@+id/button2"
+        android:id="@+id/button3" />
+</LinearLayout>
+
+    <Button
+        android:text="SOLVE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:id="@+id/buttonSolve"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignParentStart="true" />
+</LinearLayout>

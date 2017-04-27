@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">A2</string>
+    <string name="label_tea">Tea</string>
+    <string name="label_coffee">Coffee</string>
+    <string name="label_question">Do you want to order tea or coffee?</string>
+    <string name="label_order">You ordered </string>
+</resources>
